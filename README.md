@@ -1,0 +1,2 @@
+# myhash
+My hashing function
