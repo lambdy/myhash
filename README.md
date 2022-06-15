@@ -1,6 +1,4 @@
 # myhash
-My hashing function
-
 
 Inspiration for my hash function came from the SHA1 hashing algorithm. The function uses blocks of a fixed size, a pre-determined initial block, it performs multiple rounds, and uses the output from the previous round with input for the next round.
 
