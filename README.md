@@ -11,3 +11,7 @@ Within the hashing algorithm itself, the words are mixed and mashed but their le
 The hashing function always produces the same size blocks, therefore, regardless of the input length, the output will always be a fixed length. Even with two similar inputs, the digests are vastly different. However, the exact same input will always return the same digests. From examining the digest alone, it is difficult to determine the input and thus the requirement for pre-image resistance is satisfied. Numerous tests were performed using symbols, word lists, and number enumration to find collisions but none have been found. 
 
 Early in the design of this hash function, I determined that because the original message is split into blocks, a longer message would be easier to secure than a shorter message. Therefore, the focus for the design of this hash function was to provide security for inputs that are very short. Perhaps the biggest contributor to the security of the hash function is that the function is run twice on the first block. Without this, the likelihood of collisions increases. Security of the hash function could be improved by having a larger output or using a larger modulus. Adding more padding, introducing more constants within the hashing function, and performing more rounds would also improve the security of the hash function.
+
+
+https://github.com/lambdy/myhash/assets/109147348/13b23531-0ab2-493c-b7d0-c73658fa8ddb
+
